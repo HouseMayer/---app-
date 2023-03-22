@@ -9,6 +9,11 @@
 </view>
 
 <!-- 广告区域 -->
+
+<!-- <view class="icon1">
+<image src=" /image/1.jpg" mode="widthFix" style="width: 750rpx;" />
+</view> -->
+
 <swiper autoplay="{{ true }}" indicator-dots="{{ true }}" indicator-color="FFFAFA"  indicator-active-color="6A5ACD" interval="{{ 2000 }}" circular vertical="{{ false }}" duration="{{ 500 }}">
   <block wx:for="{{ [1,2,3,4,5] }}" wx:key="swiper">
     <swiper-item>
@@ -36,7 +41,7 @@
     <view class="seckill-head">
       <view class="seckill-head-bjimg">
         <view class="miao iconfont icon-miaosha11">限时秒杀</view>
-        <view class="miao-link iconfont  icon-miaosha">更多秒杀</view>
+        <view class="miao-link iconfont icon-miaosha">更多秒杀</view>
       </view>
       <view class="seckill-footer">
         <block wx:for="{{ [1,2] }}" wx:key="img">
@@ -66,8 +71,8 @@
         <image src="/image/16.png" />
       </view>
     </view>
-    <view class="containers-one container-box" >电子栏目
-      <view class="containers-one-tit">特价电池专卖</view>
+    <view class="containers-one container-box" >球鞋栏目
+      <view class="containers-one-tit">球鞋特卖</view>
       <view class="containers-one-img">
         <image src="/image/17.png" />
         <image src="/image/18.png" />
