@@ -1,0 +1,49 @@
+<!--pages/test/test.wxml-->
+<text>{{ name }}</text>
+<text>{{ user.age }}</text>
+<view wx:for="{{ lists }}">
+  <view>ID: {{ item.id }}</view>
+  <view>Name: {{item.name}}</view>
+  <view>Age: {{item.age}}</view>
+</view>
+<view wx:for="{{ lists }}" wx:for-item="users" wx:for-index="key" wx:key="lists">
+  <view>Name: {{ key }} - {{ users.name }}</view>
+</view>
+<block wx:for="{{ lists }}" wx:for-item="users" wx:for-index="key" wx:key="lists">
+  <view>
+    <view>ID: {{ users.id }}</view>
+  </view>
+</block>
+
+<block wx:if="{{ age<=10 }}">
+  <view>儿童</view>
+</block>
+<block wx:elif="{{ age>10 & age<=20 }}">
+  <view>少年</view>
+</block>
+<block wx:elif="{{ age>20 & age<=50 }}">
+  <view>青年</view>
+</block>
+<block wx:elif="{{ age>50 & age<=65 }}">
+  <view>中年</view>
+</block>
+<block wx:else>
+  <view>老年</view>
+</block>
+
+<block wx:for="{{ lists }}" wx:for-item="users" wx:for-index="key" wx:key="lists">
+  <block wx:if="{{ users.age===99}}">
+    <view>王五</view>
+  </block>
+  <block wx:elif="{{ users.age===20}}">
+    <view>李四</view>
+  </block>
+  <block wx:else>
+    <view>未知</view>
+  </block>
+</block>
+
+<block wx:for="{{ array }} " wx:key="array">
+  <view wx:if="{{ item=='1' }}">8</view>
+  <view wx:elif="{{ item!='1' }}">2</view>
+</block>

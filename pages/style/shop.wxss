@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3932805 */
+  src: url('//at.alicdn.com/t/c/font_3932805_7nf8unfnx3j.woff2?t=1679494393367') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3932805_7nf8unfnx3j.woff?t=1679494393367') format('woff'),
+       url('//at.alicdn.com/t/c/font_3932805_7nf8unfnx3j.ttf?t=1679494393367') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-miaosha1:before {
+  content: "\fe4a";
+  color: red;
+}
+
+.icon-miaosha11:before {
+  content: "\fb72";
+  color: red;
+}
+
+.icon-miaosha:before {
+  content: "\e607";
+  color: red;
+}
+
+.icon-yuyin:before {
+  content: "\e687";
+}
+
+.icon-saoyisao:before {
+  content: "\e62e";
+}
+
+.icon-shouji:before {
+  content: "\e600";
+}
+
+.icon-xinxifill:before {
+  content: "\e762";
+}
+
+.icon-sousuokuang:before {
+  content: "\e61e";
+}
+
+.icon-24gl-cartFull4:before {
+  content: "\e87a";
+}
+
+.icon-24gf-cartFull4:before {
+  content: "\e882";
+}

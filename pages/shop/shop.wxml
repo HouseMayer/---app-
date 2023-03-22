@@ -1,0 +1,80 @@
+<!--pages/shop/shop.wxml-->
+<view class="search">
+    <view class="iconfont icon-saoyisao"></view>
+    <view>
+        <view class="iconfont icon-sousuokuang"></view>
+        <view class="iconfont icon-yuyin yy"></view>
+    </view>
+    <view class="iconfont icon-xinxifill"></view>
+</view>
+
+<!-- 广告区域 -->
+<swiper autoplay="{{ true }}" indicator-dots="{{ true }}" indicator-color="FFFAFA"  indicator-active-color="6A5ACD" interval="{{ 2000 }}" circular vertical="{{ false }}" duration="{{ 500 }}">
+  <block wx:for="{{ [1,2,3,4,5] }}" wx:key="swiper">
+    <swiper-item>
+      <image src="/image/hot/{{ item }}.jpg" mode="widthFix" style="width: 750rpx;"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="icon-box">
+  <view class="icon">
+    <block wx:for="{{ images }}" wx:key="images">
+      <view class="icon-item">
+        <view>
+        <image src="{{ item.url }}" mode="aspectFit" style='width:80rpx;height:80rpx'></image>
+        </view>
+        <view>{{ item.name }}</view>
+    </view>
+    </block>
+  </view>
+</view>
+
+<!-- 秒杀区域 -->
+<view class="sml-box">
+  <view class="seckill-box">
+    <view class="seckill-head">
+      <view class="seckill-head-bjimg">
+        <view class="miao iconfont icon-miaosha11">限时秒杀</view>
+        <view class="miao-link iconfont  icon-miaosha">更多秒杀</view>
+      </view>
+      <view class="seckill-footer">
+        <block wx:for="{{ [1,2] }}" wx:key="img">
+          <view class="seckill-f-box">
+            <image src="/image/11.jpg" />
+            <view class="seckill-f-price">
+              <view class="seckill-f-newprice">￥1099</view>
+              <view class="seckill-f-oldprice">￥1999</view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 商品专栏 -->
+<view class="sml-box">
+  <view>
+    <image class="tit-image" src="/image/14.png" />
+  </view>
+  <view class="container-top">
+    <view class="containers-one container-box">电子栏目
+      <view class="containers-one-tit">特价电池专卖</view>
+      <view class="containers-one-img">
+        <image src="/image/15.png" />
+        <image src="/image/16.png" />
+      </view>
+    </view>
+    <view class="containers-one container-box" >电子栏目
+      <view class="containers-one-tit">特价电池专卖</view>
+      <view class="containers-one-img">
+        <image src="/image/17.png" />
+        <image src="/image/18.png" />
+      </view>
+    </view>
+  </view>
+  
+
+
+</view>

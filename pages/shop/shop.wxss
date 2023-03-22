@@ -1,0 +1,169 @@
+@import "/pages/style/shop.wxss";
+page{
+  font-size: 16px
+}
+
+.search{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80rpx;
+  background-color: red;
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+.search view:nth-of-type(1){
+  margin-left: 20rpx;
+}
+.search view:nth-of-type(2){
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 550rpx;
+  height: 60rpx;
+  background-color: white;
+  color: black;
+  line-height: 60rpx;
+}
+.yy{
+  margin-left: 380rpx;
+}
+.search view:nth-of-type(3){
+  margin-right: 20rpx;
+}
+
+.icon{
+  display: flex;
+  flex-wrap: wrap;
+  width: 750rpx;
+  height: 350rpx;
+  background-color: aliceblue;
+  justify-content: space-between;
+}
+
+.icon-item{
+  width: 150rpx;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 15rpx;
+}
+
+.sml-box{
+  width: 750rpx;
+  height: 100%;
+}
+
+.seckill-head-bjimg{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.seckill-footer{
+  width: 750rpx;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.seckill-f-box{
+  display: flex;
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.seckill-f-box image{
+  width: 340rpx;
+  height: 340rpx;
+}
+
+.seckill-head-bjimg .miao{
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  height: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial Black;
+}
+
+.miao-link{
+  display: inline;
+  margin-right: 20rpx;
+  margin-top: 10rpx;
+  height: 100%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.seckill-f-price{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seckill-f-newprice{
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-weight: 600;
+}
+
+.seckill-f-oldprice{
+  width: 100%;
+  text-align: center;
+  color: #778899;
+}
+
+.tit-image{
+  width: 100%;
+  height: 70rpx;
+  margin-top: 15rpx;
+}
+
+.container-top{
+  width: 100%;
+  height: 100%;
+  margin-top: 2rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containers-one{
+  width: 355rpx;
+  height: 240rpx;
+  font-weight: 800;
+  color: #4390f5;
+  background-color: fff;
+}
+
+.containers-one-img{
+  display: flex;
+  height: 130rpx;
+  margin-top: 10rpx;
+  justify-content: space-around;
+}
+
+.containers-one-img image{
+  width: 129rpx;
+  height: 129rpx;
+}
+
+.containers-one-tit{
+  font-weight: 200;
+  font-size: 12px;
+  color: red;
+}

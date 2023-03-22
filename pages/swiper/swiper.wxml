@@ -1,0 +1,8 @@
+<!--pages/swiper/swiper.wxml-->
+<swiper autoplay="{{ true }}" indicator-dots="{{ true }}" indicator-color="FFFAFA"  indicator-active-color="6A5ACD" interval="{{ 2000 }}" circular vertical="{{ false }}" duration="{{ 500 }}">
+  <block wx:for="{{ [1,2,3,4,5] }}" wx:key="swiper">
+    <swiper-item>
+      <image src="/image/{{ item }}.png" />
+    </swiper-item>
+  </block>
+</swiper>
