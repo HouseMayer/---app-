@@ -42,9 +42,7 @@
       },
       {
         "pagePath": "pages/index/index",
-        "text": "发现",
-        "iconPath": "/icon/cat.jpg",
-        "selectedIconPath": "/icon/cat.jpg"
+        "text": "发现"
       },
       {
         "pagePath": "pages/logs/logs",
