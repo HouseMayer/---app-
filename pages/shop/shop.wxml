@@ -71,15 +71,12 @@
         <image src="/image/16.png" />
       </view>
     </view>
-    <view class="containers-one container-box" >球鞋栏目
-      <view class="containers-one-tit">球鞋特卖</view>
+    <view class="containers-one container-box" >生活专区
+      <view class="containers-one-tit">跑鞋装备推荐</view>
       <view class="containers-one-img">
         <image src="/image/17.png" />
         <image src="/image/18.png" />
       </view>
     </view>
   </view>
-  
-
-
 </view>
