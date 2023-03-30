@@ -1,0 +1,19 @@
+<!--pages/tap/tap.wxml-->
+<view bind:tap="click">父组件
+  <view bindtap="click2">
+    子组件
+  </view>
+</view>
+
+<view catchtap="click">Out
+  <view catchtap="click2">
+  In
+  </view>
+</view>
+
+<view bindtap="click3" data-name="张三" data-age="18">
+  张三
+</view>
+<view bindtap="click4" data-name="李四">父
+  <view bindtap="click4" data-name="小明">子</view>
+</view>

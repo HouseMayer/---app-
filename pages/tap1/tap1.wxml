@@ -1,0 +1,14 @@
+<!--pages/tap1/tap1.wxml-->
+
+<view class="top">
+  <view class="t1" catchtap="c1">
+  1
+  </view>
+  <view class="t1" catchtap="c2">
+  2
+  </view>
+  <view class="t1" catchtap="c3">
+  3
+  </view>
+</view>
+<image src="{{ src }} " />

@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/tap1/tap1",
+    "pages/tap/tap",
     "pages/shop/shop",
     "pages/swiper/swiper",
     "pages/flex/flex",
