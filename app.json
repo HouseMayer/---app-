@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/swipertab/swipertab",
+    "pages/nav/nav",
     "pages/tap1/tap1",
     "pages/tap/tap",
     "pages/shop/shop",

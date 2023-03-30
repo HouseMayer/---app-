@@ -1,0 +1,10 @@
+/* pages/nav/nav.wxss */
+.nav{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.now{
+  color: red;
+}

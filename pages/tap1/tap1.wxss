@@ -1,7 +1,7 @@
 /* pages/tap1/tap1.wxss */
 .top{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 150rpx;
   width: 750rpx;
   background-color: rgb(255, 255, 255);

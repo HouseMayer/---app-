@@ -1,0 +1,9 @@
+/* pages/swipertab/swipertab.wxss */
+.nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+.now{
+  color:red;
+}

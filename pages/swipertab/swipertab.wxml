@@ -1,0 +1,18 @@
+<!--pages/swipertab/swipertab.wxml-->
+<view class="nav">
+  <block wx:for="{{ styles }}" wx:key="styles">
+    <view class="{{ item.class }}" data-index="{{index}}" bindtap="tab">{{ item.text }}</view>
+  </block>
+</view>
+
+<swiper circular="{{ true }}" current="{{ index }}" bindtap="changetab">
+  <swiper-item>
+    <view class="cnt">11111</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="cnt">22222</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="cnt">33333</view>
+  </swiper-item>
+</swiper>
